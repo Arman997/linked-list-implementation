@@ -89,6 +89,12 @@ class LinkedList {
         return res;
         
     }
+
+    insertFront(id, val){
+
+        
+
+    }
 }
 
 let obj = new LinkedList();
@@ -99,7 +105,7 @@ obj.push_back(4)
 obj.push_back(5)
 obj.push_back(11)
 
-console.log(obj.searchlast(12));
+console.log(obj.searchlast(5));
 
 // obj.toprint()
 
